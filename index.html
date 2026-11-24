@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlockHost — Minecraft Server Hosting</title>
+  <meta name="description" content="Fast Minecraft servers with DDoS protection, daily backups, and one-click modpacks. Your world, online in 60 seconds.">
+  <meta name="theme-color" content="#0E1210">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="BlockHost">
+  <meta property="og:title" content="BlockHost — Minecraft Server Hosting">
+  <meta property="og:description" content="Your world, online in 60 seconds. DDoS protection, daily backups, one-click modpacks.">
+  <meta property="og:url" content="https://blockhost.gg/">
+  <meta property="og:image" content="https://blockhost.gg/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230E1210'/%3E%3Crect x='2' y='2' width='12' height='12' fill='%235BD16B'/%3E%3Crect x='2' y='2' width='12' height='5' fill='%234CAF50'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a class="brand" href="#top" aria-label="BlockHost, back to top">
+        <span class="brand-cube" aria-hidden="true"></span>
+        <span class="brand-name">BlockHost</span>
+      </a>
+      <div class="nav-panel" id="nav-panel">
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#plans">Plans</a>
+          <a href="#features">Features</a>
+          <a href="#faq">FAQ</a>
+          <a href="#support">Support</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="nav-login" href="#">Login</a>
+          <a class="btn btn-primary btn-sm" href="#plans">Get Started</a>
+        </div>
+      </div>
+      <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="nav-panel" aria-label="Menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-hills" aria-hidden="true">
+        <div class="hill hill-far" data-speed="0.04"></div>
+        <div class="hill hill-mid" data-speed="0.10"></div>
+        <div class="hill hill-near" data-speed="0.18"></div>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Minecraft server hosting</p>
+          <h1 id="hero-title">Your world, online in 60 seconds.</h1>
+          <p class="hero-sub">Fast Minecraft servers with DDoS protection, daily backups, and one-click modpacks.</p>
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#plans">View Plans</a>
+            <a class="btn btn-outline" href="#features">See Features</a>
+          </div>
+          <p class="hero-note">No setup fee. Cancel anytime.</p>
+        </div>
+        <div class="hero-cube-wrap" data-reveal aria-hidden="true">
+          <div class="cube-scene">
+            <div class="cube-tilt" id="cube-tilt">
+              <div class="cube">
+                <div class="cube-face cube-face-front cube-face-side"></div>
+                <div class="cube-face cube-face-back cube-face-side"></div>
+                <div class="cube-face cube-face-right cube-face-side"></div>
+                <div class="cube-face cube-face-left cube-face-side"></div>
+                <div class="cube-face cube-face-top"></div>
+                <div class="cube-face cube-face-bottom"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="BlockHost by the numbers">
+      <div class="container stats-grid" data-reveal-group>
+        <div class="stat" data-reveal-child>
+          <span class="stat-value" data-count="52000" data-decimals="0" data-suffix="+">52,000+</span>
+          <span class="stat-label">Servers hosted</span>
+        </div>
+        <div class="stat" data-reveal-child>
+          <span class="stat-value" data-count="128540" data-decimals="0" data-suffix="">128,540</span>
+          <span class="stat-label">Players online</span>
+        </div>
+        <div class="stat" data-reveal-child>
+          <span class="stat-value" data-count="99.98" data-decimals="2" data-suffix="%">99.98%</span>
+          <span class="stat-label">Uptime</span>
+        </div>
+        <div class="stat" data-reveal-child>
+          <span class="stat-value" data-count="12" data-decimals="0" data-suffix=" ms">12 ms</span>
+          <span class="stat-label">Average ping</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Why BlockHost</p>
+          <h2 id="features-title">Everything a server needs to stay up</h2>
+          <p class="section-sub">No add-on bingo. These come with every plan.</p>
+        </div>
+        <div class="features-grid" data-reveal-group>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3>Instant Setup</h3>
+            <p>Pay, pick a name, play. Your server is ready about 60 seconds after checkout, IP included.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="12" x2="2" y2="12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/><line x1="6" y1="16" x2="6.01" y2="16"/><line x1="10" y1="16" x2="10.01" y2="16"/></svg>
+            </div>
+            <h3>NVMe Storage</h3>
+            <p>Chunks load as fast as you can fly. Worlds, mods, and backups all live on NVMe drives.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>DDoS Protection</h3>
+            <p>Attacks are filtered at our edge before they reach your node. Your players never see the lag spike.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 9.4 7.55 4.24"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.29 7 12 12 20.71 7"/><line x1="12" y1="22" x2="12" y2="12"/></svg>
+            </div>
+            <h3>One-Click Modpacks</h3>
+            <p>Install packs from CurseForge and Modrinth in the panel. Updating a pack is one click, not an evening.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+            </div>
+            <h3>Daily Backups</h3>
+            <p>We snapshot your world every night and keep a week of history. Roll back griefing in one click.</p>
+          </article>
+          <article class="feature-card" data-reveal-child>
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg>
+            </div>
+            <h3>24/7 Support</h3>
+            <p>Real admins who run their own servers. Median first reply is under 15 minutes, day or night.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing" id="plans" aria-labelledby="plans-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Pricing</p>
+          <h2 id="plans-title">Pick a plan</h2>
+          <p class="section-sub">Start small. Upgrade in one click when your world outgrows it.</p>
+        </div>
+        <div class="billing-toggle" data-reveal>
+          <span class="billing-label" id="billing-label-monthly">Monthly</span>
+          <button class="switch" id="billing-switch" role="switch" aria-checked="false" aria-label="Yearly billing, save 20 percent">
+            <span class="switch-knob" aria-hidden="true"></span>
+          </button>
+          <span class="billing-label" id="billing-label-yearly">Yearly <span class="save-tag">Save 20%</span></span>
+        </div>
+        <div class="pricing-grid" id="pricing-grid" data-reveal-group></div>
+      </div>
+    </section>
+
+    <section class="section how" id="how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">Online in three steps</h2>
+        </div>
+        <div class="steps" id="steps">
+          <div class="steps-line" aria-hidden="true"><div class="steps-line-fill"></div></div>
+          <ol class="steps-list" data-reveal-group>
+            <li class="step" data-reveal-child>
+              <span class="step-num" aria-hidden="true">1</span>
+              <h3>Pick a plan</h3>
+              <p>Choose the RAM and slots you need. Start small and upgrade later without losing your world.</p>
+            </li>
+            <li class="step" data-reveal-child>
+              <span class="step-num" aria-hidden="true">2</span>
+              <h3>Set up your server</h3>
+              <p>Pick a version or a modpack in the panel. We handle the install, ports, and Java flags.</p>
+            </li>
+            <li class="step" data-reveal-child>
+              <span class="step-num" aria-hidden="true">3</span>
+              <h3>Start playing</h3>
+              <p>Share the IP with your friends. Most new servers see their first player within the hour.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">What players say</p>
+          <h2 id="testimonials-title">Server owners on BlockHost</h2>
+        </div>
+        <div class="testimonials-grid" data-reveal-group>
+          <figure class="testimonial-card" data-reveal-child>
+            <blockquote>
+              <p>We moved our 40-player SMP in one evening. The TPS drops we fought for months were gone the same night.</p>
+            </blockquote>
+            <figcaption>
+              <span class="avatar avatar-a" aria-hidden="true"></span>
+              <span>
+                <span class="testimonial-name">Maya Reyes</span>
+                <span class="testimonial-role">SMP owner</span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card" data-reveal-child>
+            <blockquote>
+              <p>A bad modpack update corrupted our world at 1 AM. Support restored a backup while I was still on Discord with them.</p>
+            </blockquote>
+            <figcaption>
+              <span class="avatar avatar-b" aria-hidden="true"></span>
+              <span>
+                <span class="testimonial-name">Daniel Kim</span>
+                <span class="testimonial-role">Modded server admin</span>
+              </span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card" data-reveal-child>
+            <blockquote>
+              <p>I run three servers from one panel. The one-click restore has saved my builds twice this year.</p>
+            </blockquote>
+            <figcaption>
+              <span class="avatar avatar-c" aria-hidden="true"></span>
+              <span>
+                <span class="testimonial-name">Priya Sharma</span>
+                <span class="testimonial-role">Community host</span>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Questions we get every day</h2>
+        </div>
+        <div class="faq-list" data-reveal-group>
+          <details class="faq-item" data-reveal-child>
+            <summary>How fast is setup, really?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>About 60 seconds. The panel creates your server as soon as payment clears, and you get the IP right away. Large modpacks add a few minutes for the first install.</p>
+            </div>
+          </details>
+          <details class="faq-item" data-reveal-child>
+            <summary>Which versions and modpacks do you support?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Vanilla, Paper, Purpur, Fabric, and Forge, from 1.8.8 to the latest release. One-click installs cover CurseForge and Modrinth packs, and you can upload your own jars over FTP.</p>
+            </div>
+          </details>
+          <details class="faq-item" data-reveal-child>
+            <summary>How do backups work?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>We snapshot your whole server every night and keep 7 days of history. Restores are one click in the panel, and you can download any backup as a zip before you roll back.</p>
+            </div>
+          </details>
+          <details class="faq-item" data-reveal-child>
+            <summary>Can I upgrade my plan later?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Any time. Upgrades apply in about a minute, and your world, plugins, and settings carry over. We prorate what you already paid, so you only cover the difference.</p>
+            </div>
+          </details>
+          <details class="faq-item" data-reveal-child>
+            <summary>What is your refund policy?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Full refund within 72 hours of your first order, no questions asked. After that, you can cancel any time and keep the server until the paid period ends.</p>
+            </div>
+          </details>
+          <details class="faq-item" data-reveal-child>
+            <summary>What does DDoS protection actually cover?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Every plan includes always-on filtering. Volumetric attacks are absorbed at our edge, and game-protocol floods are rate-limited before they reach your node. It costs nothing extra.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-panel" data-reveal>
+          <h2 id="cta-title">Ready to build?</h2>
+          <a class="btn btn-primary btn-lg" href="#plans">Start your server today</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="support">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="BlockHost, back to top">
+            <span class="brand-cube" aria-hidden="true"></span>
+            <span class="brand-name">BlockHost</span>
+          </a>
+          <p>Fast Minecraft servers with backups that actually restore.</p>
+          <div class="socials">
+            <a href="#" aria-label="BlockHost on Discord">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.865-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.058a.082.082 0 0 0 .031.056 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .078-.01c3.928 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .079.009c.12.099.246.198.373.292a.077.077 0 0 1-.007.128 12.3 12.3 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.331c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.086-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+            </a>
+            <a href="#" aria-label="BlockHost on X">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.063-6.932zm-1.294 19.497h2.039L6.486 3.24H4.298l13.308 17.41z"/></svg>
+            </a>
+            <a href="#" aria-label="BlockHost on YouTube">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+            <a href="#" aria-label="BlockHost on Twitch">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11.571 4.714h1.715v5.143H11.57zm4.715 0H18v5.143h-1.714zM6 0 1.714 4.286v15.428h5.143V24l4.286-4.286h3.428L22.286 12V0zm14.571 11.143-3.428 3.428h-3.429l-3 3v-3H6.857V1.714h13.714z"/></svg>
+            </a>
+          </div>
+        </div>
+        <nav class="footer-col" aria-label="Product">
+          <h3>Product</h3>
+          <a href="#plans">Plans</a>
+          <a href="#features">Features</a>
+          <a href="#">Modpacks</a>
+          <a href="#">Dedicated IPs</a>
+        </nav>
+        <nav class="footer-col" aria-label="Company">
+          <h3>Company</h3>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+        </nav>
+        <nav class="footer-col" aria-label="Support">
+          <h3>Support</h3>
+          <a href="#">Help Center</a>
+          <a href="#faq">FAQ</a>
+          <a href="#">System Status</a>
+          <a href="#">Contact</a>
+        </nav>
+        <nav class="footer-col" aria-label="Legal">
+          <h3>Legal</h3>
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Refund Policy</a>
+          <a href="#">Acceptable Use</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="footer-year">2026</span> BlockHost Ltd. All rights reserved.</p>
+        <p>BlockHost is not affiliated with Mojang Studios or Microsoft. "Minecraft" is a trademark of Mojang.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
